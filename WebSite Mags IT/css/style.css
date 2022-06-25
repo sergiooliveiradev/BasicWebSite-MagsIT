@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2, 29, 79);
+    background: linear-gradient(
+      173deg,
+      rgba(2, 29, 79, 1) 3%,
+      rgba(32, 92, 185, 1) 100%
+    );
+  }
+  
+  /* --------------------- Header --------------------- */
+  
+  .header {
+    text-align: center;
+    padding: 4px 0;
+  }
+  
+  .logo {
+    width: 70%;
+    margin-top: 5px;
+  }
+  
+  .container {
+    margin: auto;
+    width: 1000px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .navbar {
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(241, 241, 241);
+    height: 60px;
+    width: 1000px;
+  }
+  
+  .nav-item {
+    display: inline-block;
+  }
+  
+  a {
+    margin: 18px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    transition: 0.2;
+    color: rgba(5, 105, 199, 0.801);
+  }
+  
+  /* --------------------- Marquee --------------------- */
+  .rolagem {
+    background-color: rgba(7, 118, 197, 0.753);
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .rolagem-2 {
+    color: white;
+  }
+  
+  .rolagem-2:hover {
+    color: rgba(144, 201, 255, 0.801);
+    transition: 0.2;
+  }
+  
+  /* --------------------- Serviços --------------------- */
+  .servicos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+  .card {
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10px 0 20px 0;
+    width: 30%;
+  }
+  
+  .image {
+    height: 200px;
+    border-radius: 5px;
+
+  }
+  
+  .titulo-servico {
+    padding-left: 10px;
+  }
+  
+  .titulo-servico-maior {
+    font-size: 16px;
+    text-align: center;
+}
+
+  .titulo-servico-maior-dois {
+    text-align: center;
+  }
+
+  .titulo-servico-maior-dois-note{ 
+    text-align: center;
+    font-size: 20px;
+  }
+  .conteudo {
+    text-align: left;
+  }
+  
+  .lista-descricao-servicos {
+    margin-top: 10px;
+  }
+  
+  .item-lista-servicos {
+    list-style: disc;
+    margin-left: 25px;
+  }
+  
+  .botoes-servicos {
+    background-color: rgb(0, 95, 184);
+    margin-top: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 100px;
+    height: 35px;
+  }
+
+  .botoes-servicos:hover {
+    cursor: pointer;
+    background-color: rgb(0, 75, 146);
+    transition: 0.2s;
+  }
+  
+  /* --------------------- Footer --------------------- */
+  .footer {
+    background-color: rgb(241, 241, 241);
+    margin-top: 1rem;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  .acesso {
+    font-size: 16px;
+    padding: 0;
+  }
+  
+  .footer p {
+    text-align: center;
+  }
+  
+  .botao {
+    background-color: rgb(0, 95, 184);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 40px;
+    width: 80px;
+  }
+  
+  .botao:hover {
+    cursor: pointer;
+    background-color: rgb(0, 75, 146);
+    transition: 0.2s;
+  }
+  
+  .container-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .informacoes {
+    margin-bottom: 5px;
+  }
+  
